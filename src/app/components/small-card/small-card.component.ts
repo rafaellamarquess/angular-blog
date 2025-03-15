@@ -1,10 +1,11 @@
-
 import { Component, Input, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router'; 
 
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrls: ['./small-card.component.css']
+  styleUrls: ['./small-card.component.css'],
+  imports: [RouterModule]
 })
 export class SmallCardComponent implements OnInit {
 
